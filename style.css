@@ -1,0 +1,23 @@
+:root {
+  --blue: blue;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  color:#08063C;
+}
+
