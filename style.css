@@ -1,5 +1,10 @@
 :root {
-  --blue: blue;
+  /*Primary*/
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  /*Neutral*/
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
 }
 
 *,
@@ -13,11 +18,21 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color:#08063C;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
