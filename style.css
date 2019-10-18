@@ -17,9 +17,9 @@
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-weight: 400;
+  font-size: 62.5%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 400;
 }
 
 body {
@@ -36,3 +36,24 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
+
+/*Buttons*/
+
+.btn {
+  text-decoration: none;
+  padding: 2.2rem 7.8rem 1.8rem 7.8rem;
+  color: #fff;
+  border-radius: 4rem;
+  font-size: 2rem;
+  transform: translateY(4px);
+}
+
+.btn-green {
+  background-color: var(--Strong-Cyan);
+  box-shadow: 0 5px hsl(171, 66%, 30%);
+}
+
+.btn-blue {
+  background-color: var(--Light-Blue);
+  box-shadow: 0 5px hsl(233, 100%, 30%);
+}
