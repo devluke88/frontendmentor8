@@ -24,18 +24,34 @@ html {
 
 body {
   font-size: 1.8rem;
-  color:#08063C;
+  color:var(--Dark-Grayish-Blue);
+  background-image: url(images/bg-header-desktop.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 h1, h2, h3 {
   font-weight: 600;
+  margin-bottom: 2.6rem;
+}
+
+p {
+  color: var(--Grayish-Blue);
+  margin-bottom: 5rem;
+  line-height: 1.5;
 }
 
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 12.8rem 0;
+  text-align: center;
 }
 
+img {
+  width: 100%;
+}
 
 /*Buttons*/
 
@@ -45,15 +61,29 @@ h1, h2, h3 {
   color: #fff;
   border-radius: 4rem;
   font-size: 2rem;
-  transform: translateY(4px);
+  line-height: 1;
 }
 
 .btn-green {
   background-color: var(--Strong-Cyan);
-  box-shadow: 0 5px hsl(171, 66%, 30%);
+  box-shadow: 0 3px hsl(171, 66%, 30%);
 }
 
 .btn-blue {
   background-color: var(--Light-Blue);
-  box-shadow: 0 5px hsl(233, 100%, 30%);
+  box-shadow: 0 3px hsl(233, 100%, 30%);
 }
+
+/*END Buttons*/
+
+/*HERO*/
+
+.hero__header {
+  font-size: 3.2rem;
+}
+
+.logo {
+  margin-bottom: 7.4rem;
+}
+
+
