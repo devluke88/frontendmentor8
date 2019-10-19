@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
   <title>Frontend Mentor | Clipboard landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -20,13 +21,15 @@
 
     <!-- Hero - section -->
     <div class="hero">
-      <img src="images/logo.svg" alt="logo" class="logo">
+      <img src="images/logo.svg" alt="logo" class="logo" width="126px" height="126px">
       <h1 class="hero__header">A history of everything you copy</h1>
       <p class="hero__desc">Clipboard allows you to track and organize everything you 
           copy. Instantly access your clipboard on all your devices.</p>
       <div>
+        <div class="hero-flex">
         <a href="#" class="btn btn-green">Download for iOS</a>
         <a href="#" class="btn btn-blue">Download for Mac</a>
+      </div>
     </div>
     </div>
     
@@ -79,21 +82,21 @@
 
       <div class="workflow__block"> 
         <div class="block-item">
-          <img src="images/icon-blacklist.svg" alt="text" class="workflow-text">
+          <img src="images/icon-blacklist.svg" alt="blacklist" class="workflow-blacklist" width="40px" height="40px">
           <h3 class="item-desc">Create blacklists</h3>
           <p class="item-desc">
             Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
           </p>
         </div>
         <div class="block-item">
-          <img src="images/icon-text.svg" alt="text" class="workflow-text">
+          <img src="images/icon-text.svg" alt="text" class="workflow-text" width="40px" height="40px">
           <h3 class="item-desc">Plain text snippets</h3>
           <p class="item-desc">
           Remove unwanted formatting from copied text for a consistent look.
           </p>
         </div>
         <div class="block-item">
-          <img src="images/icon-preview.svg" alt="text" class="workflow-text">
+          <img src="images/icon-preview.svg" alt="preview" class="workflow-preview"  width="40px" height="40px">
           <h3 class="item-desc">Sneak preview</h3>
           <p class="item-desc">
           Quick preview of all snippets on your Clipboard for easy access.
