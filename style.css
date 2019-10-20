@@ -1,7 +1,9 @@
 :root {
   /*Primary*/
   --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Cyan: #5DCCBB;
   --Light-Blue: hsl(233, 100%, 69%);
+  --Very-Light-Blue: #8896FF;
   /*Neutral*/
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
   --Grayish-Blue: hsl(201, 11%, 66%);
@@ -42,10 +44,14 @@ p {
   line-height: 1.5;
 }
 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a:hover { color: hsl(171, 66%, 44%); }
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 12.8rem 0;
+  padding: 12.8rem 0 0 0;
   text-align: center;
 }
 
@@ -66,13 +72,26 @@ img {
 
 .btn-green {
   background-color: var(--Strong-Cyan);
-  box-shadow: 0 3px hsl(171, 66%, 30%);
+  border-bottom: 3px solid hsl(171, 66%, 30%);
+}
+
+.btn-green:hover {
+  background-color: var(--Light-Cyan);
+  border-bottom: 3px solid hsl(171, 66%, 45%);
+  box-shadow: 0 3px 10px hsl(171, 66%, 45%);
 }
 
 .btn-blue {
   background-color: var(--Light-Blue);
-  box-shadow: 0 3px hsl(233, 100%, 30%);
+  border-bottom: 3px solid hsl(233, 100%, 30%);
 }
+
+.btn-blue:hover {
+  background-color: var(--Very-Light-Blue);
+  border-bottom: 3px solid hsl(233, 100%, 70%);
+  box-shadow: 0 3px 10px hsl(233, 100%, 70%);
+}
+
 
 /*END Buttons*/
 
@@ -85,5 +104,12 @@ img {
 .logo {
   margin-bottom: 7.4rem;
 }
+
+
+.footer {
+  background-color: #ECEDEE;
+}
+
+
 
 
