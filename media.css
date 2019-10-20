@@ -39,8 +39,95 @@
     /*END HERO*/
 
     /*SNIPPETS*/
-    
+    .snippets-img {
+        margin-bottom: 6.2rem;
+    }
 
+    .box--item-desc {
+        padding: 0 1rem;
+    }
+
+    .snippets-section {
+        margin-bottom: 15rem;
+    }
+
+    .workflow__header {
+        margin-bottom: 2.4rem;
+    }
+
+    .workflow__desc {
+        margin-bottom: 9.5rem;
+    }
+
+    .workflow-blacklist,
+    .workflow-text,
+    .workflow-preview {
+        margin-bottom: 4.6rem;
+    }
+
+    .big-five {
+        display: grid;
+        grid-template-columns: 142px;
+        grid-template-rows: repeat(5, 1fr);
+        grid-row-gap: 64px;
+        justify-content: center;
+        margin-bottom: 15.5rem;
+    }
+
+    .footer {
+        padding-top: 4.9rem;
+        display: flex;
+        flex-direction: column;
+        height: 50rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 3.6rem;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+        height: 7.2rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: hsl(210, 10%, 33%);
+    }
+
+    .footer-link:hover {
+        color:hsl(171, 66%, 44%);
+    }
+
+    .social {
+        display: flex;
+        font-size: 3rem;
+        width: 16rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social-link {
+        color:hsl(210, 10%, 33%);
+    }
+
+    .social-link:hover {
+        color:hsl(171, 66%, 44%);
+    }
+
+    .mac-flex {
+        display: flex;
+        flex-direction: column;
+        height: 13.8rem;
+        justify-content: space-between;
+        margin-bottom: 4.8rem;
+    }
 
 }
 
