@@ -36,21 +36,23 @@
             meaning you can access your snippets immediately on all your 
             devices. Our Mac and iOS apps will help you organize everything.</p>
       </div>
-      <div class="snippets__img">
-        <img src="images/image-computer.png" alt="computer" class="snippets-img">
-      </div>
-      <div class="snippets__box">
-        <div class="snippets__box--item">
-          <h3 class="box--item-header">Quick Search</h3>
-          <p class="box--item-desc">Easily search your snippets by content, category, web address, application, and more.</p> 
+      <div class="snippets-flex">
+        <div class="snippets__img">
+          <img src="images/image-computer.png" alt="computer" class="snippets-img">
         </div>
-        <div class="snippets__box--item">
-          <h3 class="box--item-header">iCloud Sync</h3>
-          <p class="box--item-desc">Instantly saves and syncs snippets across all your devices.</p> 
-        </div>
-        <div class="snippets__box--item">
-          <h3 class="box--item-header">Complete History</h3>
-          <p class="box--item-desc">Retrieve any snippets from the first moment you started using the app.</p> 
+        <div class="snippets__box">
+          <div class="snippets__box--item">
+            <h3 class="box--item-header">Quick Search</h3>
+            <p class="box--item-desc">Easily search your snippets by content, category, web address, application, and more.</p> 
+          </div>
+          <div class="snippets__box--item">
+            <h3 class="box--item-header">iCloud Sync</h3>
+            <p class="box--item-desc">Instantly saves and syncs snippets across all your devices.</p> 
+          </div>
+          <div class="snippets__box--item">
+            <h3 class="box--item-header">Complete History</h3>
+            <p class="box--item-desc">Retrieve any snippets from the first moment you started using the app.</p> 
+          </div>
         </div>
       </div>
     </div>
@@ -63,7 +65,9 @@
         Whether you’re on the go, or at your computer, you can access all your Clipboard 
         snippets in a few simple clicks.
       </p>
-      <img src="images/image-devices.png" alt="devices" class="devices-img">
+      <div class="clipboard-img">
+       <img src="images/image-devices.png" alt="devices" class="devices-img">
+      </div>
       </div>
     </div>
 
@@ -71,41 +75,39 @@
     <div class="workflow-section">
       <div class="workflow-supercharge">
         <h2 class="workflow__header">Supercharge your workflow</h2>
-
         <p class="workflow__desc">We’ve got the tools to boost your productivity.</p>
       </div>
 
       <div class="workflow__block"> 
         <div class="block-item">
-          <img src="images/icon-blacklist.svg" alt="blacklist" class="workflow-blacklist" width="40px" height="39px">
-          <h3 class="item-desc">Create blacklists</h3>
+          <img src="images/icon-blacklist.svg" alt="blacklist" class="workflow-blacklist" height="32px">
+          <h3 class="item-header">Create blacklists</h3>
           <p class="item-desc">
             Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
           </p>
         </div>
         <div class="block-item">
-          <img src="images/icon-text.svg" alt="text" class="workflow-text" width="32px" height="32px">
-          <h3 class="item-desc">Plain text snippets</h3>
+          <img src="images/icon-text.svg" alt="text" class="workflow-text" height="32px">
+          <h3 class="item-header">Plain text snippets</h3>
           <p class="item-desc">
           Remove unwanted formatting from copied text for a consistent look.
           </p>
         </div>
         <div class="block-item">
-          <img src="images/icon-preview.svg" alt="preview" class="workflow-preview"  width="32px" height="32px">
-          <h3 class="item-desc">Sneak preview</h3>
+          <img src="images/icon-preview.svg" alt="preview" class="workflow-preview" height="32px">
+          <h3 class="item-header">Sneak preview</h3>
           <p class="item-desc">
           Quick preview of all snippets on your Clipboard for easy access.
           </p>
         </div>
-
-        <div class="big-five">
-          <img src="images/logo-google.png" alt="google" class="big-five_img">
-          <img src="images/logo-ibm.png" alt="google" class="big-five_img">
-          <img src="images/logo-microsoft.png" alt="google" class="big-five_img">
-          <img src="images/logo-hp.png" alt="google" class="big-five_img">
-          <img src="images/logo-vector-graphics.png" alt="google" class="big-five_img">
-        </div>
       </div> 
+      <div class="big-five">
+        <img src="images/logo-google.png" alt="google" class="big-five_img">
+        <img src="images/logo-ibm.png" alt="google" class="big-five_img">
+        <img src="images/logo-microsoft.png" alt="google" class="big-five_img">
+        <img src="images/logo-hp.png" alt="google" class="big-five_img">
+        <img src="images/logo-vector-graphics.png" alt="google" class="big-five_img">
+      </div>
     </div>
 
     <!-- Clipboard for Mac - section -->
@@ -124,23 +126,27 @@
   </div>
 
   <footer class="footer">
-    <img src="images/logo.svg" alt="logo" class="footer-logo" width="58px" height="58px">
-    <div class="footer-flex">
-      <a href="#" class="footer-link">FAQs</a>
-      <a href="#" class="footer-link">Contact Us</a>
-    </div>
-    <div class="footer-flex">
-      <a href="#" class="footer-link">Privacy Policy</a>
-      <a href="#" class="footer-link">Press Kit</a>
-    </div>
-    <div class="footer-flex">
-      <a href="#" class="footer-link">Install Guide</a>
-    </div>
-    <div class="social">
-      <a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a>
-      <a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a>
-      <a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
-    </div>
+    <div class="footer-grid">
+      <img src="images/logo.svg" alt="logo" class="footer-logo" width="58px" height="58px">
+      <div class="footer-flex">
+        <a href="#" class="footer-link">FAQs</a>
+        <a href="#" class="footer-link">Contact Us</a>
+      </div>
+      <div class="footer-flex">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Press Kit</a>
+      </div>
+      <div class="footer-flex">
+        <a href="#" class="footer-link">Install Guide</a>
+      </div>
+      <div class="social">
+        <a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+      </div>
+
+  </div>
+  
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="htpp://www.luknow.com">lukenow.com</a>.
