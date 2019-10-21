@@ -27,7 +27,6 @@ html {
 body {
   font-size: 1.8rem;
   color:var(--Dark-Grayish-Blue);
-  background-image: url(images/bg-header-desktop.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -38,13 +37,13 @@ h1, h2, h3 {
   margin-bottom: 2.6rem;
 }
 
-p {
+p::not(p.atrribution) {
   color: var(--Grayish-Blue);
   margin-bottom: 5rem;
   line-height: 1.5;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; padding: 3rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
 .attribution a:hover { color: hsl(171, 66%, 44%); }
 
@@ -68,6 +67,7 @@ img {
   border-radius: 4rem;
   font-size: 2rem;
   line-height: 1;
+  letter-spacing: 0.1;
 }
 
 .btn-green {
@@ -78,7 +78,7 @@ img {
 .btn-green:hover {
   background-color: var(--Light-Cyan);
   border-bottom: 3px solid hsl(171, 66%, 45%);
-  box-shadow: 0 3px 10px hsl(171, 66%, 45%);
+  box-shadow: 0 5px 15px hsl(171, 66%, 75%);
 }
 
 .btn-blue {
@@ -89,10 +89,8 @@ img {
 .btn-blue:hover {
   background-color: var(--Very-Light-Blue);
   border-bottom: 3px solid hsl(233, 100%, 70%);
-  box-shadow: 0 3px 10px hsl(233, 100%, 70%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-
-
 /*END Buttons*/
 
 /*HERO*/
