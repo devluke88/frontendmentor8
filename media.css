@@ -74,12 +74,11 @@
         margin-bottom: 15.5rem;
     }
 
-    .footer {
+    .footer-grid {
         padding-top: 4.9rem;
-        display: flex;
-        flex-direction: column;
+        display: grid;
         height: 50rem;
-        justify-content: space-between;
+        justify-items: center;
         align-items: center;
     }
 
@@ -93,7 +92,7 @@
         height: 7.2rem;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 2rem;
+        
     }
 
     .footer-link {
@@ -106,6 +105,7 @@
     }
 
     .social {
+        border: 1px solid red;
         display: flex;
         font-size: 3rem;
         width: 16rem;
@@ -148,5 +148,179 @@
 }
 
 @media (min-width: 1440px) {
-    
+    body {
+        background-image: url(images/bg-header-desktop.png);
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 3.4rem;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 2.6rem;
+    }
+    /*HERO*/
+    .hero-flex {
+        display: flex;
+        text-align: center;
+        max-width: 47rem;
+        margin: 0 auto;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16rem;
+      }
+
+      .btn {padding: 2rem 3.6rem 1.6rem 3.6rem;}
+
+      .hero__header {
+        font-size: 4.5rem;
+      }
+
+      .hero__desc {
+          font-size: 2rem;
+          width: 68rem;
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 5rem;
+      }
+
+
+      /*SNIPPETS*/
+
+      .snippets-section {margin-bottom: 8rem;}
+
+      .snippets__header { font-size: 3.4rem; }
+
+      .snippets__desc {
+          margin: 0 auto;
+          text-align: center;
+          max-width: 69.5rem;
+          margin-bottom: 8.2rem;
+      }
+
+      .snippets-flex {
+          display: flex;
+      }
+
+      .snippets__img {
+        margin-right: 10rem;
+      }
+
+      .snippets__box {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: center;
+          padding: 0;
+          margin: 0;
+          text-align: left;
+          max-width: 38rem;
+      }
+
+      .snippets__box--item:last-child {
+        margin-bottom: 7rem ;
+      }
+
+      .box--item-desc { padding: 0; }
+
+
+      /*CLIPBOARD*/
+
+      .clipboard__desc {
+          max-width: 68rem;
+          margin: 0 auto;
+          margin-bottom: 11.6rem;
+      }
+
+      .clipboard-img {
+        max-width: 90rem;
+        margin: 0 auto;
+      }
+
+      .devices-img {
+          width: 100%;
+      }
+
+
+      /*Workflow - section*/
+      
+      .workflow-section {
+        margin-bottom: 17rem;
+      }
+
+      .workflow__block {
+          /* display: flex;
+          justify-content: space-between; */
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 4.5rem;
+          max-width: 110rem;
+          margin: 0 auto;
+          margin-bottom: 17rem;
+      }
+
+      .item-header {
+          justify-self: baseline;
+      }
+
+      .block-item {
+          max-width: 34.6rem;
+      }
+
+      .item-desc {
+          font-size: 1.6rem;
+      }
+
+      .big-five {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          grid-template-rows: 1fr;
+          grid-gap: 9rem;
+          max-width: 110rem;
+          margin: 0 auto;
+          justify-items: center;
+          align-items: center;
+      }
+
+      .big-five> img:nth-of-type(2) {
+          max-width: 14rem;
+      }
+
+
+      /*Clipboard for Mac*/
+
+      .mac-section {
+          max-width: 68.2rem;
+          margin: 0 auto;
+      }
+
+      .mac-flex {
+          display: flex;
+          flex-direction: row;
+          height: auto;
+          max-width: 47.2rem;
+          margin: 0 auto;
+      }
+      
+      
+      /*FOOTER*/
+    .footer-grid {
+        flex: grid;
+        grid-template-columns: repeat(5, 5fr);
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+        margin: 0 auto;
+        max-width: 110rem;
+        border: 1px solid red;
+        height: auto;
+    }
+
+ 
 }
+    
