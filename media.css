@@ -1,153 +1,13 @@
-@media (min-width: 375px) {
-
-    body {
-        background-image: url(images/bg-header-mobile.png);
-    }
-
-    .btn {
-        text-decoration: none;
-        padding: 2.1rem 5.8rem 1.7rem 5.8rem;
-        color: #fff;
-        border-radius: 4rem;
-        font-size: 1.7rem;
-        font-weight: 700;
-    } 
-
-    p {
-        font-size: 1.6rem;
-    }
-
-    /*HERO*/
-
-    .hero__header {
-        font-size: 3.2rem;
-    }
-
-        
-    .hero-flex {
-        display: flex;
-        flex-direction: column;
-        height: 13.8rem;
-        justify-content: space-between;
-        margin-bottom: 16.8rem;
-    }
-    
-    .wrapper {
-        padding: 12.8rem 3.2rem;
-    }
-
-    /*END HERO*/
-
-    /*SNIPPETS*/
-    .snippets-img {
-        margin-bottom: 6.2rem;
-    }
-
-    .box--item-desc {
-        padding: 0 1rem;
-    }
-
-    .snippets-section {
-        margin-bottom: 15rem;
-    }
-
-    .workflow__header {
-        margin-bottom: 2.4rem;
-    }
-
-    .workflow__desc {
-        margin-bottom: 9.5rem;
-    }
-
-    .workflow-blacklist,
-    .workflow-text,
-    .workflow-preview {
-        margin-bottom: 4.6rem;
-    }
-
-    .big-five {
-        display: grid;
-        grid-template-columns: 142px;
-        grid-template-rows: repeat(5, 1fr);
-        grid-row-gap: 64px;
-        justify-content: center;
-        margin-bottom: 15.5rem;
-    }
-
-    .footer-grid {
-        padding-top: 4.9rem;
-        display: grid;
-        height: 50rem;
-        justify-items: center;
-        align-items: center;
-    }
-
-    .footer-logo {
-        margin-bottom: 3.6rem;
-    }
-
-    .footer-flex {
-        display: flex;
-        flex-direction: column;
-        height: 7.2rem;
-        justify-content: space-between;
-        align-items: center;
-        
-    }
-
-    .footer-link {
-        text-decoration: none;
-        color: hsl(210, 10%, 33%);
-    }
-
-    .footer-link:hover {
-        color:hsl(171, 66%, 44%);
-    }
-
-    .social {
-        border: 1px solid red;
-        display: flex;
-        font-size: 3rem;
-        width: 16rem;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .social-link {
-        color:hsl(210, 10%, 33%);
-    }
-
-    .social-link:hover {
-        color:hsl(171, 66%, 44%);
-    }
-
-    .mac-flex {
-        display: flex;
-        flex-direction: column;
-        height: 13.8rem;
-        justify-content: space-between;
-        margin-bottom: 4.8rem;
-    }
-
-}
-
-@media (min-width: 480px) {
-    
-}
-
-@media (min-width: 600px) {
-    
-}
-
 @media (min-width: 768px) {
-    
+    .hero-flex, .mac-flex {
+        max-width: 50rem;
+        margin: 0 auto;
+        margin-bottom: 7rem;
+    }
 }
 
 @media (min-width: 1024px) {
     
-}
-
-@media (min-width: 1440px) {
     body {
         background-image: url(images/bg-header-desktop.png);
     }
@@ -163,7 +23,11 @@
         font-weight: 600;
         font-size: 2.6rem;
     }
-    /*HERO*/
+
+    footer {
+        padding: 0 4rem;
+    }
+ 
     .hero-flex {
         display: flex;
         text-align: center;
@@ -174,153 +38,155 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 16rem;
-      }
-
-      .btn {padding: 2rem 3.6rem 1.6rem 3.6rem;}
-
-      .hero__header {
-        font-size: 4.5rem;
-      }
-
-      .hero__desc {
-          font-size: 2rem;
-          width: 68rem;
-          text-align: center;
-          margin: 0 auto;
-          margin-bottom: 5rem;
-      }
-
-
-      /*SNIPPETS*/
-
-      .snippets-section {margin-bottom: 8rem;}
-
-      .snippets__header { font-size: 3.4rem; }
-
-      .snippets__desc {
-          margin: 0 auto;
-          text-align: center;
-          max-width: 69.5rem;
-          margin-bottom: 8.2rem;
-      }
-
-      .snippets-flex {
-          display: flex;
-      }
-
-      .snippets__img {
-        margin-right: 10rem;
-      }
-
-      .snippets__box {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-end;
-          justify-content: center;
-          padding: 0;
-          margin: 0;
-          text-align: left;
-          max-width: 38rem;
-      }
-
-      .snippets__box--item:last-child {
-        margin-bottom: 7rem ;
-      }
-
-      .box--item-desc { padding: 0; }
-
-
-      /*CLIPBOARD*/
-
-      .clipboard__desc {
-          max-width: 68rem;
-          margin: 0 auto;
-          margin-bottom: 11.6rem;
-      }
-
-      .clipboard-img {
-        max-width: 90rem;
-        margin: 0 auto;
-      }
-
-      .devices-img {
-          width: 100%;
-      }
-
-
-      /*Workflow - section*/
-      
-      .workflow-section {
-        margin-bottom: 17rem;
-      }
-
-      .workflow__block {
-          /* display: flex;
-          justify-content: space-between; */
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          grid-gap: 4.5rem;
-          max-width: 110rem;
-          margin: 0 auto;
-          margin-bottom: 17rem;
-      }
-
-      .item-header {
-          justify-self: baseline;
-      }
-
-      .block-item {
-          max-width: 34.6rem;
-      }
-
-      .item-desc {
-          font-size: 1.6rem;
-      }
-
-      .big-five {
-          display: grid;
-          grid-template-columns: repeat(5, 1fr);
-          grid-template-rows: 1fr;
-          grid-gap: 9rem;
-          max-width: 110rem;
-          margin: 0 auto;
-          justify-items: center;
-          align-items: center;
-      }
-
-      .big-five> img:nth-of-type(2) {
-          max-width: 14rem;
-      }
-
-
-      /*Clipboard for Mac*/
-
-      .mac-section {
-          max-width: 68.2rem;
-          margin: 0 auto;
-      }
-
-      .mac-flex {
-          display: flex;
-          flex-direction: row;
-          height: auto;
-          max-width: 47.2rem;
-          margin: 0 auto;
-      }
-      
-      
-      /*FOOTER*/
-    .footer-grid {
-        flex: grid;
-        grid-template-columns: repeat(5, 5fr);
-        grid-template-rows: 1fr;
-        grid-gap: 30px;
-        margin: 0 auto;
-        max-width: 110rem;
-        border: 1px solid red;
-        height: auto;
     }
 
- 
-}
+    .btn {padding: 2rem 3.6rem 1.6rem 3.6rem;}
+
+    .hero__header {
+        font-size: 4.5rem;
+    }
+
+    .hero__desc {
+        font-size: 2rem;
+        width: 68rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+    }
+
+    .snippets-section {margin-bottom: 8rem;}
+
+    .snippets__header { font-size: 3.4rem; }
+
+    .snippets__desc {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 69.5rem;
+        margin-bottom: 8.2rem;
+    }
+
+    .snippets-flex {
+        display: flex;
+    }
+
+    .snippets__img {
+        margin-right: 10rem;
+    }
+
+    .snippets__box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        max-width: 38rem;
+    }
+
+    .snippets__box--item:last-child {
+    margin-bottom: 7rem ;
+    }
+
+    .box--item-desc { padding: 0; }
+
+    .clipboard__desc {
+        max-width: 68rem;
+        margin: 0 auto;
+        margin-bottom: 11.6rem;
+    }
+
+    .clipboard-img {
+    max-width: 90rem;
+    margin: 0 auto;
+    }
+
+    .devices-img {
+        width: 100%;
+    }
     
+    .workflow-section {
+    margin-bottom: 17rem;
+    }
+
+    .workflow__block {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4.5rem;
+        max-width: 110rem;
+        margin: 0 auto;
+        margin-bottom: 17rem;
+    }
+
+    .item-header {
+        justify-self: baseline;
+    }
+
+    .block-item {
+        max-width: 34.6rem;
+    }
+
+    .item-desc {
+        font-size: 1.6rem;
+    }
+
+    .big-five {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 9rem;
+        max-width: 110rem;
+        margin: 0 auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .big-five> img:nth-of-type(2) {
+        max-width: 14rem;
+    }
+
+    .mac-section {
+        max-width: 68.2rem;
+        margin: 0 auto;
+    }
+
+    .mac-flex {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        max-width: 47.2rem;
+        margin: 0 auto;
+    }
+      
+    .footer-grid {
+        flex: grid;
+        grid-template-columns: repeat(4, 180px) auto;
+        grid-template-rows: 1fr;
+        margin: 0 auto;
+        max-width: 110rem;
+        height: auto;
+        align-items: flex-start;
+        justify-items: flex-start;
+    }
+
+    .social {
+        align-self: center;
+        justify-self: flex-end;
+    }
+
+    .footer-img {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .footer-flex {
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    footer {
+        padding: 0;
+    }
+}
