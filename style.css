@@ -108,6 +108,8 @@ img {
 
 .logo {
   margin-bottom: 7.4rem;
+  width: 126px;
+  height: 126px;
 }
 
 .hero-flex {
@@ -220,4 +222,13 @@ img {
 
 .mac__desc {
   margin-bottom: 5.2rem;
+}
+
+.block-item>img {
+  height: 32px;
+}
+
+.footer-logo {
+  width: 58px;
+  height: 58px;
 }
